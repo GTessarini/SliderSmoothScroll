@@ -1,0 +1,16 @@
+#slider-scroll{
+    width: 100%;
+    display: inline-flex;
+    overflow-x: scroll;
+}
+#slider-scroll .slider-item, #slider-scroll .slider-item *{
+    padding: 0 2.5px;
+    width: auto;
+    z-index: -1;
+}
+.slider-scroll-hover-left{
+    box-shadow: inset 55px 0px 60px -40px white
+} 
+.slider-scroll-hover-right{
+    box-shadow: inset -40px 0px 33px -22px white
+} 
